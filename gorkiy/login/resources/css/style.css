@@ -1,0 +1,39 @@
+.card-pf {
+    border-color: var(--pf-global--palette--purple-600);
+}
+
+@media (max-width: 767px) {
+    #kc-header-wrapper {
+        padding: 60px 0 0 0;
+    }
+    div.kc-logo-text {
+        width: 300px;
+        height: 63px;
+        margin: 0 auto;
+    }
+    .card-pf {
+        position: absolute;
+        width: 100%;
+        height: calc(100% - 300px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #kc-login {
+        border-radius: 23px;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+}
+
+#kc-login {
+    background-color: #FE5B15;
+}
+
+#kc-login:hover {
+    background-color: #FF3B3B;
+}
+
+.login-pf-header {
+    display: none;
+}
