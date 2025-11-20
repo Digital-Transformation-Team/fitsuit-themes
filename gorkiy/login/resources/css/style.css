@@ -12,21 +12,20 @@
         margin: 0 auto;
     }
     .card-pf {
-        position: absolute;
         width: 100%;
-        height: calc(100% - 300px);
+        min-height: 60vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    #kc-login {
+    .pf-c-button.pf-m-primary {
         border-radius: 23px;
         font-size: 20px;
         padding: 10px 0;
     }
 }
 
-#kc-login {
+.pf-c-button.pf-m-primary {
     background-color: #FE5B15;
 }
 
@@ -35,5 +34,5 @@
 }
 
 .login-pf-header {
-    display: none;
+    display: none!important;
 }
