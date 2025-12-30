@@ -18,10 +18,13 @@
         flex-direction: column;
         justify-content: center;
     }
-    .pf-c-button.pf-m-primary {
-        border-radius: 23px;
+    #kc-form-buttons .pf-c-button.pf-m-primary {
         font-size: 20px;
         padding: 10px 0;
+    }
+
+    .pf-c-button.pf-m-primary {
+        border-radius: 23px;
     }
 }
 
@@ -35,4 +38,14 @@
 
 .login-pf-header {
     display: none!important;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #FE5B15;
+}
+
+a {
+    color: #FE5B15;
+    text-decoration: none;
 }
